@@ -32,21 +32,21 @@ export function decorateCSSPath (cssPath) {
 
 export function decorateSrcFilePathList (filePathList) {
   CONSTANTS.formats.sort()
-  .forEach((ext) => {
-    const list = filePathList
-      .filter((filePath) => path.extname(filePath).slice(1).toLowerCase() === ext)
-    const i = list.length
-    if (i) {
-      const s = pad() +
-        chalk.magenta('READING') +
-        chalk.gray(' [') +
-        pad(i) +
-        chalk.white(i) +
-        chalk.gray('] ') +
-        chalk.gray(ext)
-      console.log(s)
-    }
-  })
+    .forEach((ext) => {
+      const list = filePathList
+        .filter((filePath) => path.extname(filePath).slice(1).toLowerCase() === ext)
+      const i = list.length
+      if (i) {
+        const s = pad() +
+          chalk.magenta('READING') +
+          chalk.gray(' [') +
+          pad(i) +
+          chalk.white(i) +
+          chalk.gray('] ') +
+          chalk.gray(ext)
+        console.log(s)
+      }
+    })
 }
 
 export function decorateCSSFilePathList (filePathList) {

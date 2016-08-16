@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rma-consulting/font-file-to-font-face.git"
+    "url": "git+https://github.com/rma-consulting/make-face.git"
   },
   "license": "UNLICENSED",
   "dependencies": {

@@ -1,10 +1,11 @@
 require('babel-register')({})
 
-const commander = require('commander')
+const fs = require('fs')
 /*
 http://stackoverflow.com/questions/9153571/is-there-a-way-to-get-version-from-package-json-in-nodejs-code
 */
-const pkg = JSON.parse(require('fs').readFileSync('package.json', 'utf8'))
+const commander = require('commander')
+const pkg = JSON.parse(fs.readFileSync('package.json', 'utf8'))
 const lib = require('./lib')
 
 commander

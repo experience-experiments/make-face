@@ -1,10 +1,11 @@
 {
-  "name": "font-file-to-font-face",
+  "name": "make-face",
   "version": "0.0.1",
   "description": "Convert font files into CSS @font-face declarations with embedded Base64 data",
+  "keywords": [ "css", "font", "face", "@font-face", "encode", "base64", "embed", "otf", "ttf", "eot", "svg", "woff", "woff2"],
   "main": "./index.js",
   "scripts": {
-    "eslint": "eslint ./"
+    "eslint": "eslint ./lib"
   },
   "author": {
     "name": "jonathan Perry for Sequence Media Limited",

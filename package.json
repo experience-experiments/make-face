@@ -5,7 +5,7 @@
   "keywords": [ "css", "font", "face", "@font-face", "encode", "base64", "embed", "otf", "ttf", "eot", "svg", "woff", "woff2"],
   "main": "./index.js",
   "scripts": {
-    "eslint": "eslint ./lib"
+    "eslint": "eslint ./lib ./log ./constants"
   },
   "author": {
     "name": "jonathan Perry for Sequence Media Limited",

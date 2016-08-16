@@ -2,17 +2,17 @@
 import path from 'path'
 import chalk from 'chalk'
 
-import CONSTANTS from './constants'
+import CONSTANTS from '../constants'
 
 const pad = (i = 0) => {
   const n = (i < 10) ? 3 : (i < 100) ? 2 : (i < 1000) ? 1 : 0
   return String.fromCharCode(32).repeat(n)
 }
 
-export function decorateError (e) {
+export function decorateError (message) {
   const s =
-    chalk.red('ERROR') +
-    chalk.white(` - ${e.message}`)
+    chalk.red('ERROR\t') +
+    chalk.white(message)
   console.error(s)
 }
 

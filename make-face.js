@@ -1,4 +1,4 @@
-require('babel-register')({})
+require('babel-register')({ ignore: /!(make-face\/lib)/ })
 
 const fs = require('fs')
 /*

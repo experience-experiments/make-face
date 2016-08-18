@@ -1,4 +1,6 @@
-require('babel-register') // ({ ignore: /!(make-face\/lib)/ })
+#!/usr/bin/env node
+
+require('babel-register')
 
 const fs = require('fs')
 /*

@@ -1,3 +1,3 @@
-require('babel-register') // ({ ignore: /!(make-face\/lib)/ })
+require('babel-register')
 
 module.exports = require('./lib').makeFace

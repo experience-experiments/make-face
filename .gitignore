@@ -40,3 +40,5 @@ pids
 # Build Folders
 coverage/
 npm-debug.log*
+
+fonts

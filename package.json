@@ -1,6 +1,6 @@
 {
   "name": "make-face",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Convert font files into CSS @font-face declarations with embedded Base64 data",
   "keywords": [
     "css",

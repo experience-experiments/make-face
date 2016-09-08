@@ -61,3 +61,16 @@ export function decorateCSSFilePathList (filePathList) {
     console.log(s)
   }
 }
+
+export function decorateFilePathList (filePathList) {
+  const i = filePathList.length
+  if (i) {
+    const s = pad() +
+      chalk.green('READING') +
+      chalk.gray(' [') +
+      pad(i) +
+      chalk.white(i) +
+      chalk.gray('] css')
+    console.log(s)
+  }
+}

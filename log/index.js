@@ -74,3 +74,12 @@ export function decorateFilePathList (filePathList) {
     console.log(s)
   }
 }
+
+export function decorateFile (file) {
+  const s = pad() +
+    chalk.green('WRITING') +
+    chalk.gray(' [') +
+    chalk.white(file) +
+    chalk.gray(']')
+  console.log(s)
+}

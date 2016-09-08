@@ -13,6 +13,7 @@ const lib = require('./lib')
 commander
   .version(pkg.version)
   .option('-p, --path <path>', 'The location from which to read CSS files')
+  .option('-f, --file <file>', 'The file to which to write the object')
   .option('--silent', 'Silent running')
   .parse(process.argv)
 
@@ -20,6 +21,5 @@ commander
  *	TODO:
  *	maxBuffer!
  */
-lib.readFaceFromCMD(commander.silent, commander.path)
-  .then((data) => console.log(data))
+lib.readFaceFromCMD(commander.silent, commander.path, commander.file)
   .then(() => process.exit())

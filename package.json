@@ -1,6 +1,6 @@
 {
   "name": "make-face",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Convert font files into CSS @font-face declarations with embedded Base64 data",
   "keywords": [
     "css",
@@ -22,7 +22,7 @@
     "eslint": "eslint ./lib ./log ./constants"
   },
   "author": {
-    "name": "jonathan Perry for Sequence Media Limited",
+    "name": "Jonathan Perry for Sequence Media Limited",
     "email": "sequencemedia@sequencemedia.net",
     "url": "http://sequencemedia.net"
   },

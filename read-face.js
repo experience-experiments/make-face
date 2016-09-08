@@ -18,7 +18,7 @@ commander
 
 /*
  *	TODO:
- *	Output options
+ *	maxBuffer!
  */
 lib.readFaceFromCMD(commander.silent, commander.path)
   .then((data) => console.log(data))
